@@ -3,13 +3,15 @@ import './ListingCard.css';
 
 const ListingCard = ({ listing }) => {
   return (
-    <div className="listing-card">
-      <img src={listing.image} alt={listing.title} />
-      <h3>{listing.title}</h3>
-      <p>{listing.type}</p>
-      <p>Guests: {listing.guests} Bedrooms: {listing.bedrooms} Bathrooms: {listing.bathrooms}</p>
-      <p>Price: ${listing.price}/night</p>
-      <p>Rating: {listing.rating}</p>
+    <div className="col-md-4">
+      <div className="card">
+        <img src={listing.image} className="card-img-top" alt={listing.title} />
+        <div className="card-body">
+          <h5 className="card-title">{listing.title}</h5>
+          <p className="card-text">Hosted by {listing.host}</p>
+          <p>{listing.status}</p>
+        </div>
+      </div>
     </div>
   );
 };

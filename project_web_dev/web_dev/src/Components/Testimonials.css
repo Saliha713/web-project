@@ -1,0 +1,23 @@
+.container {
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .testimonial-links li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .testimonial-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .testimonial-links a:hover {
+    color: #0056b3; /* Darker shade on hover */
+  }
+  
+  h5 {
+    font-weight: bold; /* Bold headers */
+    margin-bottom: 20px; /* Space below headers */
+  }
+  
