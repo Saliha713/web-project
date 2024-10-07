@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import Navbar from './Components/Navbar';
-import SearchBar from './Components/SearchBar.jsx';
-import Categories from './Components/Categories';
-import ListingCard from './Components/ListingCard';
-import Footer from './Components/Footer';
+import Navbar from './Components/Navbar.jsx';
+import SearchBar from './Components/SearchBar.jsx'
+import Categories from './Components/Categories.jsx';
+import ListingCard from './Components/ListingCard.jsx';
+import Footer from './Components/Footer.jsx';
 import './App.css';
 
 const App = () => {
